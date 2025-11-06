@@ -28,6 +28,7 @@ This project demonstrates scalable **data engineering** and **machine learning**
 
 ---
 
+```
 ## ⚙️ Project Architecture
 
 📦 recommender_system/
@@ -45,7 +46,7 @@ This project demonstrates scalable **data engineering** and **machine learning**
 │
 ├── README.md
 └── requirements.txt
-
+```
 ---
 
 
