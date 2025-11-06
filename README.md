@@ -29,21 +29,21 @@ This project demonstrates scalable **data engineering** and **machine learning**
 ---
 
 ## ⚙️ Project Architecture
-📦 recommender_system/
-│
-├── preprocess.py # Clean and transform raw e-commerce events
-├── train_als_implicit.py # Train ALS model & generate top-N recommendations
-├── dashboard.py # Streamlit dashboard for user-wise recommendations
+recommender_system/
+├── preprocess.py                 # Clean and transform raw e-commerce events
+├── train_als_implicit.py         # Train ALS model & generate top-N recommendations
+├── dashboard.py                  # Streamlit dashboard for user-wise recommendations
 │
 ├── work/
-│ ├── ratings_parquet/ # Preprocessed Spark Parquet data
-│ ├── out/
-│ │ ├── analytics_summary/ # Product-level analytics (counts, averages)
-│ │ ├── top_recommendations_pretty/ # Joined ALS results + metadata
-│ │ └── model_metrics.csv # RMSE and other KPIs
+│   ├── ratings_parquet/          # Preprocessed Spark Parquet data
+│   └── out/
+│       ├── analytics_summary/    # Product-level analytics (counts, averages)
+│       ├── top_recommendations_pretty/  # Joined ALS results + metadata
+│       └── model_metrics.csv     # RMSE and other KPIs
 │
 ├── README.md
 └── requirements.txt
+
 
 ## 🧩 Features
 
